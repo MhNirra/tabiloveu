@@ -1,0 +1,474 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vw;
+  box-sizing: border-box;
+  background-color: #000;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+  overflow: hidden;
+  opacity: 0;
+}
+
+#one {
+  position: absolute;
+  font-family: "Alkatra", system-ui;
+  font-size: 60px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  line-height: 5.9rem;
+  top: 200px;
+  color: #fff;
+}
+
+#one .char {
+  transform: translateY(115px);
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+/* Mobile (portrait and landscape) */
+@media only screen and (max-width: 767px) {
+  #one {
+    font-size: 50px;
+  }
+}
+
+/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #one {
+    font-size: 55px;
+  }
+}
+
+/* Laptop (portrait and landscape) */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+}
+
+#two {
+  font-family: "Alkatra", system-ui;
+  opacity: 1;
+  position: absolute;
+  top: 200px;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  #two {
+    padding: 0px 5px;
+    font-size: 40px;
+  }
+}
+
+/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #two {
+    font-size: 45px;
+  }
+}
+
+#three {
+  font-family: "Alkatra", system-ui;
+  font-size: 60px;
+  position: absolute;
+  top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+#three span {
+  position: absolute;
+  top: 100%;
+  text-align: center;
+  width: 850px;
+}
+
+@media only screen and (max-width: 767px) {
+  #three {
+    padding: 0px 5px;
+    font-size: 40px;
+  }
+
+  #three span {
+    width: 100vw;
+  }
+}
+
+/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #three {
+    font-size: 45px;
+  }
+}
+
+#four {
+  font-family: "Alkatra", system-ui;
+  font-size: 60px;
+  width: 100vw;
+  position: absolute;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Mobile (portrait and landscape) */
+@media only screen and (max-width: 767px) {
+  #four {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+}
+
+/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #four {
+    font-size: 45px;
+  }
+}
+
+#five {
+  font-family: "Alkatra", system-ui;
+  font-size: 60px;
+  position: absolute;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Mobile (portrait and landscape) */
+@media only screen and (max-width: 767px) {
+  #five {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+}
+
+/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #five {
+    font-size: 45px;
+  }
+}
+
+#six {
+  font-family: "Alkatra", system-ui;
+  font-size: 60px;
+  position: absolute;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Mobile (portrait and landscape) */
+@media only screen and (max-width: 767px) {
+  #six {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+}
+
+/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #six {
+    font-size: 45px;
+  }
+}
+
+#seven {
+  font-family: "Alkatra", system-ui;
+  font-size: 60px;
+  position: absolute;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Mobile (portrait and landscape) */
+@media only screen and (max-width: 767px) {
+  #seven {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+}
+
+/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #seven {
+    font-size: 45px;
+  }
+}
+
+#eight {
+  font-family: "Alkatra", system-ui;
+  font-size: 60px;
+  position: absolute;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Mobile (portrait and landscape) */
+@media only screen and (max-width: 767px) {
+  #eight {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+}
+
+/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #eight {
+    font-size: 45px;
+  }
+}
+
+.dot {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  /* background: url(https://pixijs.github.io/pixi-particles-editor/assets/images/Snow100px.png); */
+  background: url(./icons/Snow100px.png);
+  background-size: 30% 30%;
+  background-repeat: no-repeat;
+}
+
+.leafdot {
+  width: 95px;
+  height: 95px;
+  position: absolute;
+  /* -webkit-filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4)); */
+  background: url(./icons/leaf.png);
+  /* background: url(http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png); */
+  background-size: 30% 30%;
+  background-repeat: no-repeat;
+}
+
+#nine span {
+  /* visibility: hidden; */
+  font-family: "Alkatra", system-ui;
+  font-size: 15rem;
+  display: inline-block;
+}
+
+/* Mobile (portrait and landscape) */
+@media only screen and (max-width: 767px) {
+  #nine span {
+    font-size: 10rem;
+  }
+}
+
+#overlay1 {
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+
+#ten {
+  opacity: 0;
+  max-width: 500px;
+  top: 50px;
+  position: absolute;
+  overflow: hidden;
+  margin: 0px 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  #ten span {
+    max-width: 400px;
+  }
+}
+
+#img2 {
+  position: absolute;
+  bottom: 150%;
+  left: 0;
+}
+
+#img3 {
+  position: absolute;
+  right: 150%;
+  top: 0;
+}
+
+#img4 {
+  position: absolute;
+  left: 150%;
+  top: 0;
+}
+
+#img5 {
+  position: absolute;
+  left: 150%;
+  top: 150%;
+}
+
+#img6 {
+  position: absolute;
+  right: 150%;
+  top: 150%;
+}
+
+#img7 {
+  position: absolute;
+  left: 150%;
+  bottom: 150%;
+}
+
+#img8 {
+  position: absolute;
+  right: 150%;
+  bottom: 150%;
+}
+
+#img9 {
+  position: absolute;
+  left: 0%;
+  bottom: 150%;
+}
+
+#img10 {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+
+#img11 {
+  position: absolute;
+  top: 150%;
+  left: 0;
+}
+
+#img12 {
+  position: absolute;
+  position: absolute;
+  bottom: 200%;
+  left: 0;
+  /* z-index: -9999 !important; */
+}
+
+#img13 {
+  position: absolute;
+  top: 150%;
+  left: 0;
+}
+
+#img14 {
+  position: absolute;
+  position: absolute;
+  bottom: 150%;
+  left: 0;
+}
+
+#eleven {
+  opacity: 0;
+  top: 200px;
+  position: absolute;
+  overflow: hidden;
+  width: 80vw;
+  max-width: 800px;
+}
+
+#heart-image1 {
+  position: absolute;
+  width: 10vw;
+  top: 2%;
+  left: 68.5%;
+}
+
+#heart-image2 {
+  position: absolute;
+  width: 4.5vw;
+  top: 5%;
+  left: 53%;
+}
+
+#heart-image3 {
+  position: absolute;
+  width: 2.5vw;
+  top: 32%;
+  left: 64.5%;
+}
+
+@media only screen and (max-width: 767px) {
+  #heart-image1 {
+    width: 23vw;
+  }
+  #heart-image2 {
+    width: 10.5vw;
+  }
+  #heart-image3 {
+    width: 6vw;
+  }
+}
+
+#twelve{
+  font-family: "Alkatra", system-ui;
+  font-size: 60px;
+  position: absolute;
+  top: 200px
+}
+
+/* Mobile (portrait and landscape) */
+@media only screen and (max-width: 767px) {
+  #twelve {
+    padding: 0px 10px;
+    font-size: 40px;
+  }
+}
+
+/* Tablet (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #twelve {
+    font-size: 45px;
+  }
+}
+
+#heart-icon{
+  position: absolute;
+  bottom: -15%;
+  width: 70px;
+  opacity: 0;
+}
